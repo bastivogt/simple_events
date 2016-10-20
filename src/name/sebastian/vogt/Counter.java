@@ -42,6 +42,12 @@ public class Counter {
 
     // constructer
     public Counter(int max, int steps) {
+        this.reset(max, steps);
+    }
+
+
+    // reset
+    public void reset(int max, int steps) {
         this.max = max;
         this.steps = steps;
     }
@@ -70,9 +76,5 @@ public class Counter {
     }
 
 
-    // reset
-    public void reset(int max, int steps) {
-        this.max = max;
-        this.steps = steps;
-    }
+
 }

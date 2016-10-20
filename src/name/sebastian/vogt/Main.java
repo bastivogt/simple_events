@@ -32,6 +32,7 @@ public class Main implements IOnStartListener, IOnUpdateListener, IOnFinishListe
         this.loop ++;
         System.out.println("onFinish");
         if(this.loop <= 1) {
+            //target.removeOnUpdateListener();
             target.reset(20, 2);
             target.start();
         }
