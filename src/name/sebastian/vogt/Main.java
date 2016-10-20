@@ -4,9 +4,11 @@ public class Main implements IOnStartListener, IOnUpdateListener, IOnFinishListe
 
 
     private Counter counter;
+    private int loop;
 
 
     public Main() {
+        this.loop = 0;
         this.counter = new Counter(10, 1);
 
         this.counter.setOnStartListener(this);
@@ -26,7 +28,14 @@ public class Main implements IOnStartListener, IOnUpdateListener, IOnFinishListe
     }
 
     public void onFinish(Event e) {
+        Counter target = (Counter) e.getTarget();
+        this.loop ++;
         System.out.println("onFinish");
+        if(this.loop <= 1) {
+            target.reset(20, 2);
+            target.start();
+        }
+
     }
 
 

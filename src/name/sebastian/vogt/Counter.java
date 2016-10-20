@@ -51,4 +51,9 @@ public class Counter {
             this.onFinsishListener.onFinish(new Event(this));
         }
     }
+
+    public void reset(int max, int steps) {
+        this.max = max;
+        this.steps = steps;
+    }
 }
