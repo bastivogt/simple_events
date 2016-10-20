@@ -1,6 +1,6 @@
 package name.sebastian.vogt;
 
-public class Main implements IOnStartListener, IOnUpdateListener, IOnFinishListener{
+public class Main implements IOnStartListener, IOnUpdateListener, IOnFinishListener {
 
 
     private Counter counter;

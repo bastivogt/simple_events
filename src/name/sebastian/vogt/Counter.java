@@ -14,6 +14,7 @@ public class Counter {
     protected IOnUpdateListener onUpdateListener = null;
 
 
+    // set the listeners
     public void setOnFinishListener(IOnFinishListener listener) {
         this.onFinsishListener = listener;
     }
@@ -26,11 +27,26 @@ public class Counter {
         this.onStartListener = listener;
     }
 
+    // remove the listeners
+    public void removeOnStartListener() {
+        this.onStartListener = null;
+    }
+
+    public void removeOnUpdateListener() {
+        this.onUpdateListener = null;
+    }
+
+    public void removeOnFinishListener() {
+        this.onFinsishListener = null;
+    }
+
+    // constructer
     public Counter(int max, int steps) {
         this.max = max;
         this.steps = steps;
     }
 
+    // getCount
     public int getCount() {
         return this.count;
     }
@@ -38,6 +54,7 @@ public class Counter {
 
 
 
+    // start
     public void start() {
         if(this.onStartListener != null) {
             this.onStartListener.onStart(new Event(this));
@@ -52,6 +69,8 @@ public class Counter {
         }
     }
 
+
+    // reset
     public void reset(int max, int steps) {
         this.max = max;
         this.steps = steps;

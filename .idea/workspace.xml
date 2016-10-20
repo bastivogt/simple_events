@@ -22,14 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/name/sebastian/vogt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="36">
+              <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
               <folding>
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,20 +80,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Counter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/name/sebastian/vogt/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="-485">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/name/sebastian/vogt/IOnFinishListener.java" />
         <option value="$PROJECT_DIR$/src/name/sebastian/vogt/IOnStartListener.java" />
         <option value="$PROJECT_DIR$/src/name/sebastian/vogt/IOnUpdateListener.java" />
-        <option value="$PROJECT_DIR$/src/name/sebastian/vogt/Counter.java" />
         <option value="$PROJECT_DIR$/src/name/sebastian/vogt/Main.java" />
+        <option value="$PROJECT_DIR$/src/name/sebastian/vogt/Counter.java" />
       </list>
     </option>
   </component>
@@ -403,7 +409,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -465,30 +471,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/name/sebastian/vogt/Counter.java">
+    <entry file="file://$PROJECT_DIR$/src/name/sebastian/vogt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="36">
+          <caret line="2" column="84" selection-start-line="2" selection-start-column="84" selection-end-line="2" selection-end-column="84" />
           <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/name/sebastian/vogt/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/name/sebastian/vogt/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="-485">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
           </folding>
         </state>
       </provider>
